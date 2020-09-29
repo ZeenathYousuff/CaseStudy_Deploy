@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0a7113-a663-48a9-84af-e61b9a6abb46" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/HTML/Login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Custom.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML/Register.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -59,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601369610570</updated>
-      <workItem from="1601369611738" duration="10047000" />
+      <workItem from="1601369611738" duration="10893000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1601370280606</created>
@@ -82,22 +82,29 @@
       <option name="project" value="LOCAL" />
       <updated>1601372748188</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="second commit">
+      <created>1601381448129</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601381448129</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="second commit" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="255" y="0" key="CommitChangelistDialog2" timestamp="1601372746187">
+    <state x="255" y="0" key="CommitChangelistDialog2" timestamp="1601381445882">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="255" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1601372746187" />
+    <state x="255" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1601381445882" />
     <state width="1259" height="204" key="GridCell.Tab.0.bottom" timestamp="1601379519670">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -114,10 +121,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1601379519669" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1601372755766">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1601381464644">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1601372755766" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1601381464644" />
     <state x="193" y="69" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1601379745613">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -132,7 +139,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/HTML/Register.html</url>
-          <line>22</line>
+          <line>21</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>

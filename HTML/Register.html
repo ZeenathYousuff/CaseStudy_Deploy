@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <title>Registration</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,7 +32,6 @@
 </script>
 <div class="container">
     <p class="h2">Registration Page:</p>
-
     <div class="form-row">
         <div class="col-md-8">
             <form id="registerForm" method="POST" onsubmit="validate();return false;">
@@ -129,12 +127,17 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <input type="submit" class="btn btn-primary btn-block" value="Submit">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <input type="button" class="btn btn-primary btn-block" onclick="this.form.reset();" value="Reset">
                     </div>
+                    <div class="col-md-4">
+                        <input type="button" class="btn btn-primary" value="Login" onclick="window.location.replace('Login.html')">
+                    </div>
+
+
                 </div>
             </form>
 
