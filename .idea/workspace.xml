@@ -32,6 +32,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -52,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601369610570</updated>
-      <workItem from="1601369611738" duration="1135000" />
+      <workItem from="1601369611738" duration="3043000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1601370280606</created>
@@ -61,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601370280606</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="second commit">
+      <created>1601370785068</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601370785068</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,20 +82,21 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="255" y="0" key="CommitChangelistDialog2" timestamp="1601370278507">
+    <state x="255" y="0" key="CommitChangelistDialog2" timestamp="1601370783124">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="255" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1601370278507" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1601370290024">
+    <state x="255" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1601370783124" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1601370798059">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1601370290024" />
-    <state x="442" y="246" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601370242858">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1601370798059" />
+    <state x="442" y="246" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601371954789">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="442" y="246" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680@0.0.1280.680" timestamp="1601370242858" />
+    <state x="442" y="246" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680@0.0.1280.680" timestamp="1601371954789" />
   </component>
 </project>
