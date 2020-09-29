@@ -3,40 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <title>Registration</title>
-            <meta charset="utf-8">
-            <meta name="viewport" content="width=divice-width,initial-scale=1">
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-            <link rel = "stylesheet" type = "text/css" href = "CSS/Custom.css">
-        </head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
 <body>
+<style type="text/css">
+    .cardDetail{
+        border-width: thin;
+        border-color: #A4A4A4;
+        background-color: #fff;
+        border-style: solid;
+        border-radius: 5px;
+        padding-left: 15px;
+    }
+</style>
 <script>
-    function register(){
-
+    function validate(){
+        alert("Hiii");
+        var nameRegex = /^[a-zA-Z][A-Za-z0-9]*$/;
+        var validusername = document.getElementById("username").value.match(nameRegex);
+        alert(validusername);
+        if(validUsername == null){
+            alert("Your username is not valid. Only characters A-Z, a-z and '-' are  acceptable.");
+            document.getElementById("username").focus();
+            return false;
+        }
     }
 </script>
 <div class="container">
-    <p class="h4 text-center">Registration</p>
+    <p class="h2">Registration Page:</p>
 
     <div class="form-row">
         <div class="col-md-8">
-            <form action="#" onsubmit="">
+            <form id="registerForm" method="POST" onsubmit="validate();return false;">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="firstName">First Name:</label>
-                            <input type="text" class="form-control" id="firstName" name="firstName" required>
+                            <input type="text" class="form-control" id="firstName" name="firstName" pattern="[a-zA-Z][a-zA-Z ]+" required>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="lastName">Last Name:</label>
-                            <input type="text" class="form-control" id="lastName" name="lastName" required>
+                            <input type="text" class="form-control" id="lastName" name="lastName" pattern="[a-zA-Z][a-zA-Z ]+" required>
                         </div>
                     </div>
                 </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <div class="input-group">
+                                <span class="input-group-addon">@</span>
+                                <input type="text" class="form-control" id="username" name="username" placeholder="Username">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="row">
                     <div class="col-md-12">
                         <div class="form-group">
@@ -58,60 +85,42 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="form-group">
-                            <label for="address2">Phone number</label>
+                            <label>Phone number</label>
                             <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone Number" pattern="[+][0-9]{2}-[0-9]{10}" required>
                         </div>
                     </div>
                 </div>
 
                 <div class="row">
-
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <div class="form-group">
-                            <label>Country</label>
-                            <div class="dropdown">
-
-                                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Choose...
-                                    <span class="caret"></span>
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">INDIA</a></li>
-                                    <li><a href="#">US</a></li>
-                                    <li><a href="#">CHINA</a></li>
-                                </ul>
-                            </div>
+                            <label>Date of birth</label>
+                            <input type="date" class="form-control" id="dob" name="dob" placeholder="DD-MM-YYYY" required>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-xs-4">
+                <div class="row">
+                    <div class="col-md-12">
                         <div class="form-group">
-                            <label>State</label>
-                            <div class="dropdown">
-
-                                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Choose...
-                                    <span class="caret"></span>
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">KARNATAKA</a></li>
-                                    <li><a href="#">KERALA</a></li>
-                                    <li><a href="#">TN</a></li>
-                                </ul>
-                            </div>
+                            <label>Password</label>
+                            <input type="text" class="form-control" id="password" name="password" placeholder="Password" required>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-xs-2">
+                <div class="row">
+                    <div class="col-md-12">
                         <div class="form-group">
-                            <label for="zip">ZIP</label>
-                            <input type="text" class="form-control" id="zip" name="zip">
+                            <label>Confirm Password</label>
+                            <input type="text" class="form-control" id="cpassword" name="cpassword" placeholder="Confirm Password" required>
                         </div>
                     </div>
-
                 </div>
                 <div class="row md-form">
                     <div class="col-xs-12">
                         <div class="form-group">
-                            <label>Choose File</label>
+                            <label>Profile Picture</label>
                             <div class="btn btn-cyan btn-lg float-left">
                                 <input type="file" multiple>
                             </div>
@@ -120,18 +129,21 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-12">
-                        <button type="submit" class="btn btn-primary btn-block">Register</button>
+                    <div class="col-md-6">
+                        <input type="submit" class="btn btn-primary btn-block" value="Submit">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="button" class="btn btn-primary btn-block" onclick="this.form.reset();" value="Reset">
                     </div>
                 </div>
             </form>
 
         </div>
-
-
-
     </div>
 </div>
 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
